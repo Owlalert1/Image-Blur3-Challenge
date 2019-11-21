@@ -34,7 +34,6 @@ class Image
   def manhattan_distance (x1, y1, x2, y2)
     horizontal_distance = (x2 - x1).abs
     vertical_distance = (y2 - y1).abs
-    # (x2 - x1).abs + (y2 - y1).abs
     horizontal_distance + vertical_distance
   end
 
